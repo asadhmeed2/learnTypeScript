@@ -11,5 +11,8 @@ const person :{
 };
 
 
+// person.role.push('admin') // this is acceptable and well change the length of the tuple
+// person.role[1] = 10;//error 
+// person.role[1] = [2,"author","admin"]; // error
 // console.log(person.nickname); compailetion error nickname is not in object person
 
