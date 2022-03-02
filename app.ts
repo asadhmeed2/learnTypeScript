@@ -1,14 +1,15 @@
-const title =document.querySelector('.title') as HTMLElement;
-title.style.color = 'blue';
+const person :{
+    name:string;
+    age:number;
+    hobbies:string[];
+    role: [number, string]// tuple new type thats is not in javascript a fixed length and type array
+}={
+    name: 'John',
+    age: 34,
+    hobbies:['Sports','Cooking'],
+    role:[2,'author']
+};
 
-//ex1 add type to function arguments
-// function add(num1:number,num2:number) {
-//     return num1 + num2;
-// }
-// const number1=5;
-// const number2=6;
-// console.log(add(number1,number2));
 
-//ex2 add type to function arguments
-
+// console.log(person.nickname); compailetion error nickname is not in object person
 
